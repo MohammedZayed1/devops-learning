@@ -1,12 +1,17 @@
 # Project 1 - Linux Server Setup 
 
+# Scenario 
+Your company has rented a new Ubuntu server on AWS.
+Your manager says:
+	"Prepare the server so developers can start deploying applications."
+
 # Objective 
 Prepare a fresh Ubuntu server for development. 
 
 # Tasks 
 - Update package lists
 - Upgrade installed packages 
-- Checked CPU, memory, and disk usage
+- Check CPU, memory, and disk usage
 - Install Git 
 - Install Nginx 
 - Start Nginx 
@@ -19,7 +24,7 @@ Prepare a fresh Ubuntu server for development.
 	Installs available updates.
 
 - apt install git -y 
-	Intall git 
+	Install git 
 
 - apt install nginx -y 
 	Install nginx 
