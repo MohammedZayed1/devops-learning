@@ -1,0 +1,10 @@
+2026-08-05 09:00:01 INFO Server started
+2026-08-05 09:01:15 INFO User login: mohammed
+2026-08-05 09:03:22 WARN High memory usage
+2026-08-05 09:05:10 ERROR Database connection failed
+2026-08-05 09:06:45 INFO Retrying database connection
+2026-08-05 09:07:11 ERROR Database connection failed
+2026-08-05 09:08:30 INFO Connection restored
+2026-08-05 09:10:52 WARN Disk usage above 80%
+2026-08-05 09:12:40 ERROR API timeout
+2026-08-05 09:14:20 INFO Backup completed
