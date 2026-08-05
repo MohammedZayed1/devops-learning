@@ -1,0 +1,63 @@
+==============================
+Server Helth Reprot
+==============================
+
+Current Date:
+Thu Aug  6 12:51:23 AM EEST 2026
+
+Hostname:
+LAPTOP-EKIRMTD5
+
+IP address:
+172.28.46.129 
+
+Current logged-in user:
+mohammed_zayed
+
+Uptime:
+ 00:51:23 up  7:46,  1 user,  load average: 0.02, 0.04, 0.00
+
+Kernel version:
+6.18.33.2-microsoft-standard-WSL2
+
+Available disk space on /:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd        251G  4.0G  235G   2% /
+
+Top memory-consuming process:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         313  0.0  0.4 2287156 40124 ?       Ssl  Aug05   0:27 /usr/lib/snapd/snapd
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       444Mi       6.6Gi       4.0Mi       633Mi       7.1Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  421G   56G  89% /usr/lib/wsl/drivers
+/dev/sdd        251G  4.0G  235G   2% /
+none            3.9G  116K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.8M  3.9G   1% /init
+none            3.9G  908K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   80K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   80K  3.9G   1% /mnt/wslg/doc
+C:\             476G  421G   56G  89% /mnt/c
+snapfuse         80M   80M     0 100% /snap/lxd/22923
+snapfuse         62M   62M     0 100% /snap/core20/1587
+snapfuse         74M   74M     0 100% /snap/core22/2411
+snapfuse         47M   47M     0 100% /snap/snapd/16292
+tmpfs           787M  8.0K  787M   1% /run/user/1000
+
+Top 5 Precesses:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root          88  0.1  0.0  23904  6920 ?        Ss   Aug05   0:31 /lib/systemd/systemd-udevd
+redis        417  0.1  0.1  69820 11340 ?        Ssl  Aug05   0:47 /usr/bin/redis-server 127.0.0.1:6379
+root           1  0.0  0.1 166584 12028 ?        Ss   Aug05   0:03 /sbin/init
+root           2  0.0  0.0   3180  2208 hvc0     Sl+  Aug05   0:00 /init
+root           6  0.0  0.0   3196  2128 hvc0     Sl+  Aug05   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
