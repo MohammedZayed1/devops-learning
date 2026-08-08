@@ -1,0 +1,148 @@
+====================================
+SERVER INFORMATION
+====================================
+
+--- SERVER ---
+Hostname: LAPTOP-EKIRMTD5
+Date:     Sat Aug  8 04:26:15 AM EEST 2026
+Uptime:    04:26:15 up  2:51,  1 user,  load average: 0.00, 0.00, 0.00
+
+--- USERS ---
+Current User: mohammed_zayed
+Logged-in Users: 1
+
+--- CPU ---
+Top Process by CPU:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root          85  0.1  0.0  23900  6936 ?        Ss   01:34   0:11 /lib/systemd/systemd-udevd
+root         319  0.1  0.4 2214192 39696 ?       Ssl  01:34   0:12 /usr/lib/snapd/snapd
+redis        409  0.1  0.1  69820 11384 ?        Ssl  01:34   0:20 /usr/bin/redis-server 127.0.0.1:6379
+root           1  0.0  0.1 167696 13232 ?        Ss   01:34   0:01 /sbin/init
+root           2  0.0  0.0   3180  2204 hvc0     Sl+  01:34   0:00 /init
+root           6  0.0  0.0   3196  2124 hvc0     Sl+  01:34   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          62  0.0  0.2  64208 18740 ?        S<s  01:34   0:00 /lib/systemd/systemd-journald
+root         100  0.0  0.0 153000  1768 ?        Ssl  01:34   0:00 snapfuse /var/lib/snapd/snaps/core20_1587.snap /snap/core20/1587 -o ro,nodev,allow_other,suid
+root         104  0.0  0.0 153000  1828 ?        Ssl  01:34   0:00 snapfuse /var/lib/snapd/snaps/core20_2866.snap /snap/core20/2866 -o ro,nodev,allow_other,suid
+root         106  0.0  0.0 452056  5904 ?        Ssl  01:34   0:00 snapfuse /var/lib/snapd/snaps/core22_2411.snap /snap/core22/2411 -o ro,nodev,allow_other,suid
+root         113  0.0  0.0 153132  1864 ?        Ssl  01:34   0:00 snapfuse /var/lib/snapd/snaps/lxd_22923.snap /snap/lxd/22923 -o ro,nodev,allow_other,suid
+root         117  0.0  0.0 227896  1860 ?        Ssl  01:34   0:00 snapfuse /var/lib/snapd/snaps/snapd_16292.snap /snap/snapd/16292 -o ro,nodev,allow_other,suid
+systemd+     127  0.0  0.0  89372  7496 ?        Ssl  01:34   0:00 /lib/systemd/systemd-timesyncd
+systemd+     136  0.0  0.1  16140  8340 ?        Ss   01:34   0:00 /lib/systemd/systemd-networkd
+systemd+     272  0.0  0.1  25556 13756 ?        Ss   01:34   0:00 /lib/systemd/systemd-resolved
+message+     306  0.0  0.0   8872  5188 ?        Ss   01:34   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         307  0.0  0.2 260768 18548 ?        Ssl  01:34   0:00 /usr/sbin/NetworkManager --no-daemon
+root         310  0.0  0.2  35312 19728 ?        Ss   01:34   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         314  0.0  0.0 234524  7448 ?        Ssl  01:34   0:00 /usr/libexec/polkitd --no-debug
+syslog       315  0.0  0.0 222412  5984 ?        Ssl  01:34   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         321  0.0  0.1  15876  8260 ?        Ss   01:34   0:00 /lib/systemd/systemd-logind
+root         322  0.0  0.1 392724 13184 ?        Ssl  01:34   0:00 /usr/libexec/udisks2/udisksd
+root         324  0.0  0.0  16512  6824 ?        Ss   01:34   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root         399  0.0  0.0   9504  3088 ?        Ss   01:34   0:00 /usr/sbin/cron -f -P
+root         422  0.0  0.2 112380 22416 ?        Ssl  01:34   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         435  0.0  0.1  15440  9388 ?        Ss   01:34   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         442  0.0  0.0   8784  2292 tty1     Ss+  01:34   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         443  0.0  0.0   6788  4796 ?        Ss   01:34   0:00 /usr/sbin/apache2 -k start
+www-data     445  0.0  0.0 1998188 5040 ?        Sl   01:34   0:00 /usr/sbin/apache2 -k start
+www-data     446  0.0  0.0 1998188 5040 ?        Sl   01:34   0:00 /usr/sbin/apache2 -k start
+root         628  0.0  0.0   3196  1112 ?        Ss   01:34   0:00 /init
+root         635  0.0  0.0   3196  1248 ?        S    01:34   0:01 /init
+mohamme+     656  0.0  0.0  12128  6520 pts/0    Ss   01:34   0:00 -bash
+root         683  0.0  0.0   7528  5096 pts/1    Ss   01:34   0:00 /bin/login -f
+root         786  0.0  0.0 153132  1884 ?        Ssl  01:34   0:00 snapfuse /var/lib/snapd/snaps/lxd_40338.snap /snap/lxd/40338 -o ro,nodev,allow_other,suid
+mohamme+     901  0.0  0.1  17064  9860 ?        Ss   01:34   0:00 /lib/systemd/systemd --user
+mohamme+     903  0.0  0.0 170396  6640 ?        S    01:34   0:00 (sd-pam)
+mohamme+     952  0.0  0.0  11388  5652 pts/1    S+   01:34   0:00 -bash
+root        1676  0.0  0.2 298236 20960 ?        Ssl  01:38   0:01 /usr/libexec/packagekitd
+root        2735  0.0  0.0  23900  3988 ?        S    04:25   0:00 /lib/systemd/systemd-udevd
+root        2736  0.0  0.0  23900  3988 ?        S    04:25   0:00 /lib/systemd/systemd-udevd
+mohamme+    2745  0.0  0.0  12812  3600 pts/0    R+   04:26   0:00 ps aux --sort=-%cpu
+
+--- MEMORY  ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         319  0.1  0.4 2214192 39696 ?       Ssl  01:34   0:12 /usr/lib/snapd/snapd
+root         422  0.0  0.2 112380 22416 ?        Ssl  01:34   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1676  0.0  0.2 298236 20960 ?        Ssl  01:38   0:01 /usr/libexec/packagekitd
+root         310  0.0  0.2  35312 19728 ?        Ss   01:34   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         307  0.0  0.2 260768 18548 ?        Ssl  01:34   0:00 /usr/sbin/NetworkManager --no-daemon
+root          62  0.0  0.2  64208 18740 ?        S<s  01:34   0:00 /lib/systemd/systemd-journald
+systemd+     272  0.0  0.1  25556 13756 ?        Ss   01:34   0:00 /lib/systemd/systemd-resolved
+root           1  0.0  0.1 167696 13232 ?        Ss   01:34   0:01 /sbin/init
+root         322  0.0  0.1 392724 13184 ?        Ssl  01:34   0:00 /usr/libexec/udisks2/udisksd
+redis        409  0.1  0.1  69820 11384 ?        Ssl  01:34   0:20 /usr/bin/redis-server 127.0.0.1:6379
+mohamme+     901  0.0  0.1  17064  9860 ?        Ss   01:34   0:00 /lib/systemd/systemd --user
+root         435  0.0  0.1  15440  9388 ?        Ss   01:34   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+systemd+     136  0.0  0.1  16140  8340 ?        Ss   01:34   0:00 /lib/systemd/systemd-networkd
+root         321  0.0  0.1  15876  8260 ?        Ss   01:34   0:00 /lib/systemd/systemd-logind
+root         314  0.0  0.0 234524  7448 ?        Ssl  01:34   0:00 /usr/libexec/polkitd --no-debug
+systemd+     127  0.0  0.0  89372  7496 ?        Ssl  01:34   0:00 /lib/systemd/systemd-timesyncd
+root          85  0.1  0.0  23900  6936 ?        Ss   01:34   0:11 /lib/systemd/systemd-udevd
+mohamme+     903  0.0  0.0 170396  6640 ?        S    01:34   0:00 (sd-pam)
+root         324  0.0  0.0  16512  6824 ?        Ss   01:34   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+mohamme+     656  0.0  0.0  12128  6520 pts/0    Ss   01:34   0:00 -bash
+syslog       315  0.0  0.0 222412  5984 ?        Ssl  01:34   0:00 /usr/sbin/rsyslogd -n -iNONE
+mohamme+     952  0.0  0.0  11388  5652 pts/1    S+   01:34   0:00 -bash
+root         106  0.0  0.0 452056  5904 ?        Ssl  01:34   0:00 snapfuse /var/lib/snapd/snaps/core22_2411.snap /snap/core22/2411 -o ro,nodev,allow_other,suid
+root         683  0.0  0.0   7528  5096 pts/1    Ss   01:34   0:00 /bin/login -f
+root         443  0.0  0.0   6788  4796 ?        Ss   01:34   0:00 /usr/sbin/apache2 -k start
+message+     306  0.0  0.0   8872  5188 ?        Ss   01:34   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+www-data     445  0.0  0.0 1998188 5040 ?        Sl   01:34   0:00 /usr/sbin/apache2 -k start
+www-data     446  0.0  0.0 1998188 5040 ?        Sl   01:34   0:00 /usr/sbin/apache2 -k start
+root        2735  0.0  0.0  23900  3988 ?        S    04:25   0:00 /lib/systemd/systemd-udevd
+root        2736  0.0  0.0  23900  3988 ?        S    04:25   0:00 /lib/systemd/systemd-udevd
+mohamme+    2746  0.0  0.0  12812  3612 pts/0    R+   04:26   0:00 ps aux --sort=-%mem
+root         399  0.0  0.0   9504  3088 ?        Ss   01:34   0:00 /usr/sbin/cron -f -P
+root         442  0.0  0.0   8784  2292 tty1     Ss+  01:34   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root           2  0.0  0.0   3180  2204 hvc0     Sl+  01:34   0:00 /init
+root           6  0.0  0.0   3196  2124 hvc0     Sl+  01:34   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root         786  0.0  0.0 153132  1884 ?        Ssl  01:34   0:00 snapfuse /var/lib/snapd/snaps/lxd_40338.snap /snap/lxd/40338 -o ro,nodev,allow_other,suid
+root         100  0.0  0.0 153000  1768 ?        Ssl  01:34   0:00 snapfuse /var/lib/snapd/snaps/core20_1587.snap /snap/core20/1587 -o ro,nodev,allow_other,suid
+root         117  0.0  0.0 227896  1860 ?        Ssl  01:34   0:00 snapfuse /var/lib/snapd/snaps/snapd_16292.snap /snap/snapd/16292 -o ro,nodev,allow_other,suid
+root         113  0.0  0.0 153132  1864 ?        Ssl  01:34   0:00 snapfuse /var/lib/snapd/snaps/lxd_22923.snap /snap/lxd/22923 -o ro,nodev,allow_other,suid
+root         104  0.0  0.0 153000  1828 ?        Ssl  01:34   0:00 snapfuse /var/lib/snapd/snaps/core20_2866.snap /snap/core20/2866 -o ro,nodev,allow_other,suid
+root         635  0.0  0.0   3196  1248 ?        S    01:34   0:01 /init
+root         628  0.0  0.0   3196  1112 ?        Ss   01:34   0:00 /init
+
+--- DISK ---
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  416G   61G  88% /usr/lib/wsl/drivers
+/dev/sdd        251G  4.1G  235G   2% /
+none            3.9G   64K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.8M  3.9G   1% /init
+none            3.9G  920K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   80K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   80K  3.9G   1% /mnt/wslg/doc
+C:\             476G  416G   61G  88% /mnt/c
+snapfuse         62M   62M     0 100% /snap/core20/1587
+snapfuse         64M   64M     0 100% /snap/core20/2866
+snapfuse         74M   74M     0 100% /snap/core22/2411
+snapfuse         80M   80M     0 100% /snap/lxd/22923
+snapfuse         47M   47M     0 100% /snap/snapd/16292
+snapfuse        116M  116M     0 100% /snap/lxd/40338
+tmpfs           787M  8.0K  787M   1% /run/user/1000
+
+--- NETWORK ---
+IP Addresses:
+172.28.46.129 
+
+Open Ports:
+0.0.0.0:22
+127.0.0.53%lo:53
+127.0.0.1:6379
+10.255.255.254:53
+*:80
+[::]:22
+[::1]:6379
+
+--- PACKAGES ---
+Git:     git version 2.34.1
+--- LOGS ---
+Errors Count:  1
+Warnings Count:  1
+====================================
+Report generated: Sat Aug  8 04:26:15 AM EEST 2026
+====================================

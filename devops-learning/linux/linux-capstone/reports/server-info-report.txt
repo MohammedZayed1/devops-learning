@@ -1,0 +1,25 @@
+==============================
+Server Information
+==============================
+
+Current Date:
+Thu Aug  6 06:28:15 PM EEST 2026
+
+Hostname:
+LAPTOP-EKIRMTD5
+
+Current logged-in user:
+mohammed_zayed
+
+Uptime:
+ 18:28:15 up 41 min,  1 user,  load average: 0.01, 0.01, 0.00
+
+Ubuntu version:
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04.5 LTS
+Release:	22.04
+Codename:	jammy
+
+Kernel version:
+6.18.33.2-microsoft-standard-WSL2
+

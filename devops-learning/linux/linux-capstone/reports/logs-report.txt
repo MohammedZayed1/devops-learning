@@ -1,0 +1,21 @@
+==============================
+Logs Analysis Report
+==============================
+
+Number of Errors: 
+1
+2025-06-18 10:00:12 ERROR [http-3] GET /api/user/1234 500 Internal Server Error
+
+Number of Warnings:
+1
+2025-06-18 10:00:15 WARN [scheduler] Running cleanup job...
+
+First log:
+2025-06-18 10:00:00 INFO [main] Application starting...
+
+Last log:
+2025-06-18 10:00:26 INFO [main] Shutdown complete
+
+Most common level:
+      8 INFO
+
