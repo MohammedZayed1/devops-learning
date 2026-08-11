@@ -1,0 +1,23 @@
+services:
+
+  web:
+    image: nginx:alpine
+    container_name: inventory-web
+    environment: 
+      APP_ENV: development
+    ports:
+      - "8080:80"
+    volumes:
+      - ./web/index.html:/usr/share/nginx/html/index.html:ro
+    depends_on:
+      - api
+
+  api:
+    image: nginx:alpine
+    container_name: inventory-api
+    volumes:
+      - ./api/index.html:/usr/share/nginx/html/index.html:ro
+
+networks:
+  default:
+    name: inventory-network
