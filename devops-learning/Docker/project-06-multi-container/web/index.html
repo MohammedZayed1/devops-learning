@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventory Management System</title>
+</head>
+
+<body>
+
+    <h1>Inventory Management System</h1>
+
+    <p>Web service is running.</p>
+
+    <button onclick="checkAPI()">
+        Check API
+    </button>
+
+    <pre id="result"></pre>
+
+    <script>
+        async function checkAPI() {
+            const response = await fetch("/api/");
+            const data = await response.json();
+
+            document.getElementById("result").textContent =
+                JSON.stringify(data, null, 2);
+        }
+    </script>
+
+</body>
+</html>
