@@ -1,0 +1,10 @@
+{
+  "name": "devops-ci-cd-demo",
+  "version": "1.0.0",
+  "description": "CI/CD Docker practice application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}
