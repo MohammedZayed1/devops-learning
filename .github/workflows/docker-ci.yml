@@ -24,14 +24,14 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: Docker/project-08-ci-cd/app/package-lock.json
+          cache-dependency-path: devops-learning/Docker/project-08-ci-cd/app/package-lock.json
 
       - name: Install dependencies
-        working-directory: Docker/project-08-ci-cd/app
+        working-directory: devops-learning/Docker/project-08-ci-cd/app
         run: npm ci
 
       - name: Run tests
-        working-directory: Docker/project-08-ci-cd/app
+        working-directory: devops-learning/Docker/project-08-ci-cd/app
         run: npm test
 
   docker-build:
@@ -47,4 +47,4 @@ jobs:
         run: |
           docker build \
             -t devops-ci-cd-demo:${{ github.sha }} \
-            Docker/project-08-ci-cd/app
+            devops-learning/Docker/project-08-ci-cd/app
